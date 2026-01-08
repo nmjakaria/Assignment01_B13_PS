@@ -7,6 +7,7 @@
 body {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
+
 }
 
 .container {
@@ -18,7 +19,7 @@ button {
     cursor: pointer;
     background-color: #4A8B60;
     color: white;
-    padding: 10px 20px;
+    padding: 12px 16px 12px 16px;
     border-radius: 5px;
     text-decoration: none;
     font-weight: 600;
@@ -51,6 +52,110 @@ nav ul li a {
     transition: color 0.3s;
     font-size: 16px;
 }
+
 nav ul li a:hover {
     color: #4A8B60;
+}
+
+#hero {
+    background-image: url(/assets/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 100px 20px;
+    height: 674px;
+}
+
+.badge-container {
+    display: inline-flex;
+    align-items: center;
+    background: #FFFFFF;
+    padding: 6px 16px;
+    border-radius: 30px;
+    gap: 10px;
+}
+
+.dot-outer {
+    width: 20px;
+    height: 20px;
+    background-color: rgba(106, 180, 131, 0.2);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dot-middle {
+    width: 14px;
+    height: 14px;
+    background-color: rgba(80, 147, 102, 0.4);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dot-inner {
+    width: 7px;
+    height: 7px;
+    background-color: #30b830;
+    border-radius: 50%;
+}
+
+.badge-text {
+    color: #30b830;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#hero h1 {
+    font-size: 72px;
+    line-height: 84px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.green-text {
+    color: #30B868;
+}
+
+#hero p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+
+.hero-btns {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.btn-primary {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.btn-secondary {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.btn-secondary i {
+    font-size: 18px;
+}
+.btn-secondary:hover {
+    background-color: white;
+    color: #4A8B60;
+    
 }
