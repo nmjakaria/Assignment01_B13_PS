@@ -58,7 +58,7 @@ nav ul li a:hover {
 }
 
 #hero {
-    background-image: url(/assets/hero-bg.png);
+    background-image: url(../assets/hero-bg.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -157,5 +157,5 @@ nav ul li a:hover {
 .btn-secondary:hover {
     background-color: white;
     color: #4A8B60;
-    
+
 }
