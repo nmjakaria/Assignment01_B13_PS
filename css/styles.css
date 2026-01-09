@@ -199,3 +199,53 @@ nav ul li a:hover {
     padding: 15px 16px 15px 16px;
     border-radius: 50%;
 }
+#solution{
+    padding: 120px 0px;
+}
+.solution-container{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+.solution-header1 p{
+    color: #30B868;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.solution-header1 h2{
+    font-size: 48px;
+    font-weight: 700;
+    color: #001931;
+    margin-bottom: 24px;
+}
+.solution-description p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    margin-bottom: 40px;
+}
+.solution-content ul{
+    list-style: none;
+    padding-left: 0px;
+    margin-bottom: 32px;
+}
+.solution-content ul li{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.solution-content ul li::before {
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url('/assets/CheckCircle.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    flex-shrink: 0;
+}
