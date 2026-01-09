@@ -54,7 +54,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #4A8B60;
+    color: #00a30e;
 }
 
 #hero {
@@ -303,4 +303,73 @@ nav ul li a:hover {
     font-weight: 400;
     color: #627382;
     line-height: 1.5;
+}
+
+.footer {
+    background-color: #001931;
+    color: white;
+    padding: 60px 0 30px 0;
+    font-family: sans-serif;
+}
+
+.footer-container {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.footer-logo img {
+    height: 50px;
+}
+
+.social-links h3 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.social-links .icons {
+    display: flex;
+    gap: 16px;
+    justify-content: flex-start;
+}
+
+.social-links .icons i {
+    width: 25px;
+    height: 25px;
+    filter: brightness(0) invert(1);
+    transition: opacity 0.3s;
+    padding: 5px;
+}
+
+.social-links .icons i:hover {
+    opacity: 0.7;
+}
+
+.footer-divider {
+    border: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.159);
+    margin-bottom: 25px;
+}
+
+.footer-bottom {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FAFAFA;
 }
