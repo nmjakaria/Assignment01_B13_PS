@@ -201,14 +201,14 @@ nav ul li a:hover {
     align-items: center;
     text-align: center;
     gap: 16px;
-    border: 2px solid transparent; 
+    border: 2px solid transparent;
     transition: all 0.3s ease;
 }
 
 .note-card-item:hover {
     box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
     transform: translateY(-5px);
-    border-color: #4A8B60; 
+    border-color: #4A8B60;
 }
 
 .note-card-item img {
@@ -269,8 +269,38 @@ nav ul li a:hover {
     display: inline-block;
     width: 24px;
     height: 24px;
-    background-image: url('/assets/CheckCircle.png');
+    background-image: url('../assets/CheckCircle.png');
     background-size: contain;
     background-repeat: no-repeat;
     flex-shrink: 0;
+}
+
+#challenge {
+    padding: 80px 20px;
+    background-color: #F8F7F3;
+    border-radius: 12px;
+    margin: 40px auto;
+    max-width: 1320px;
+    text-align: center;
+}
+
+.challenge-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#challenge h2 {
+    font-size: 42px;
+    color: #001F3F;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+#challenge .description,.sub-text {
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    line-height: 1.5;
 }
